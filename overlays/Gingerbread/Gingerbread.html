@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SMPMAS Countdown Overlay</title>
+    <!--
+        Overlays courtesy of Aiden C. Desjarlais (Togi)
+    -->
+    <link rel="stylesheet" href="../../default.css">
+    <style>
+        body {
+            align-content: center;
+            background-image: url('../../static/snow.gif');
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        #message {
+            color: rgb(218, 51, 51);
+            position: relative;
+            font-size: 40px;
+            border-style: solid;
+
+            border-radius: 33px;
+            border-color: #9f5529;
+            background-color: #3d281e;
+            margin: 0, 0;
+            border-width: 14px;
+            padding: 12px;
+        }
+
+        #message #date {
+            color: rgb(0, 156, 0);
+        }
+    </style>
+    <script>
+        window.onload = () => {
+            setInterval(() => {
+                var date = document.getElementById("date");
+                var xmas = new Date("December 25, 2023");
+                var today = new Date();
+                var timeUntil = (xmas.getTime() - today.getTime());
+                var daysUntil = Math.floor(timeUntil / (24 * 60 * 60 * 1000)) + " Days";
+                date.innerHTML = daysUntil;
+            }, 100);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <img src="../../static/LogoText.png" width="50%">
+        <h1 id="message">There is <span id="date"></span> Untill Christmas!</h1>
+    </div>
+</body>
+
+</html>
