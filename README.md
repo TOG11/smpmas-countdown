@@ -1,5 +1,5 @@
 # smpmas-countdown
-OBS overlay that counts down the days until xmas
+OBS overlay that counts down the days until xmas. but for added effect theres a SMPMAs logo above it, because smpmas.
 
 # how do i use
 1. extract the zip file
