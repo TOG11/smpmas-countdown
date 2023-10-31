@@ -11,5 +11,5 @@ OBS overlay that counts down the days until xmas
 7. wait for christmas!
 
 # im a dev how do i make custom countdown epicness
-1. copy an existing .html file, and put it into its own folder under the "overlays" folder
+1. copy an existing overlay .html file, and put it into its own folder under the "overlays" folder
 2. edit the .html file as needed. The only outside css is for fonts, which can be found in "default.css" in the extracted location
