@@ -2,7 +2,7 @@
 OBS overlay that counts down the days until xmas. but for added effect theres a SMPMAs logo above it, because smpmas.
 
 # how do i use
-1. extract the zip file
+1. extract the rar file (releasted tab to the right, click it and download the .rar
 2. go into "overlays" folder
 3. choose a style of overlay (gingerbread, or white chocolate)
 4. drag and drop one of the 4 .html files into obs (each .html is a diffrent customization of the countdown, same style)
